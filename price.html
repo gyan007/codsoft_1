@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        section{
+            margin-top: 100px;
+        }
+        .pricing {
+            padding: 50px 0;
+            background-color: #f9f9f9;
+          }
+          
+          .pricing-plans {
+            display: flex;
+            justify-content: space-around;
+          }
+          
+          .pricing-plan {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            flex: 1;
+            margin: 0 15px;
+          }
+          
+          .plan-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+          
+          .plan-price {
+            font-size: 36px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 20px;
+          }
+          
+          .plan-features {
+            list-style-type: none;
+            padding: 0;
+          }
+          
+          .plan-features li {
+            margin-bottom: 10px;
+          }
+          
+          .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+          }
+          
+          .btn:hover {
+            background-color: #0056b3;
+          }
+          
+    </style>
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+    
+          <button class="menu-open-btn" data-menu-open-btn>
+            <ion-icon name="reorder-two"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="navbar-top">
+    
+              <a href="./index.html" class="logo">
+                <img src="./assets/images/logo.svg" alt="Filmlane logo">
+              </a>
+    
+              <button class="menu-close-btn" data-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+    
+            </div>
+    
+            <ul class="navbar-list">
+    
+                <li>
+                    <a href="./index.html" class="navbar-link">Home</a>
+                  </li>
+        
+                  <li>
+                    <a href="./movie-details.html" class="navbar-link">No. 1 Movie</a>
+                  </li>
+        
+                  <li>
+                    <a href="./tv-show.html" class="navbar-link">No. 1 Tv Show</a>
+                  </li>
+        
+                  <li>
+                    <a href="./webseries.html" class="navbar-link">No. 1 Web Series</a>
+                  </li>
+        
+                  <li>
+                    <a href="price.html" class="navbar-link">Pricing</a>
+                  </li>
+    
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <!-- Inside the main section -->
+<section class="pricing">
+    <div class="container">
+      <div class="pricing-plans">
+        <div class="pricing-plan">
+          <h3 class="plan-title">Basic Plan</h3>
+          <div class="plan-price">Rs. 9.99/month</div>
+          <ul class="plan-features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <!-- Add more features as needed -->
+          </ul>
+          <button class="btn">Choose Plan</button>
+        </div>
+        <div class="pricing-plan">
+          <h3 class="plan-title">Pro Plan</h3>
+          <div class="plan-price">Rs. 19.99/month</div>
+          <ul class="plan-features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <!-- Add more features as needed -->
+          </ul>
+          <button class="btn">Choose Plan</button>
+        </div>
+        <div class="pricing-plan">
+          <h3 class="plan-title">Premium Plan</h3>
+          <div class="plan-price">Rs. 29.99/month</div>
+          <ul class="plan-features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <!-- Add more features as needed -->
+          </ul>
+          <button class="btn">Choose Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Filmlane logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+  
+            <li>
+              <a href="./movie-details.html" class="navbar-link">No. 1 Movie</a>
+            </li>
+  
+            <li>
+              <a href="./tv-show.html" class="navbar-link">No. 1 Tv Show</a>
+            </li>
+  
+            <li>
+              <a href="./webseries.html" class="navbar-link">No. 1 Web Series</a>
+            </li>
+  
+            <li>
+              <a href="price.html" class="navbar-link">Pricing</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Faq</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
